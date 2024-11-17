@@ -1,19 +1,20 @@
 from typing import Optional
 from pydantic import BaseModel
 
-class ItemBase(BaseModel):
+class ProjectBase(BaseModel):
     title: str
     description: str
 
-class ItemCreate(ItemBase):
-    pass
+class ProjectCreate(ProjectBase):
+    user_id:int
 
-class ItemUpdate(ItemBase):
+class ProjectUpdate(ProjectBase):
     title: Optional[str] = None
     description: Optional[str] = None
 
-class ItemResponse(ItemBase):
+class ProjectResponse(ProjectBase):
     id: int
+    user_id: int
 
     class Config:
         from_orm = True

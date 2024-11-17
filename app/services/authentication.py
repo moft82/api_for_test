@@ -3,7 +3,7 @@ from datetime import timedelta
 from typing import Optional
 from sqlalchemy.orm import Session
 from app.db.models.user import User
-from app.crud.user import get_user_by_email
+from app.crud.user import get_user_by_email_db
 from app.utils.password_util import verify_password
 from app.core.config import config
 from app.utils.time_util import get_KST
@@ -15,7 +15,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = config.ACCESS_TOKEN_EXPIRE_MINUTES
 
 # Authenticate user by verifying email and password
 def authenticate_user_sv(db: Session, email: str, password: str):
-    user = get_user_by_email(db, email)
+    user = get_user_by_email_db(db, email)
     if user and verify_password(password, user.hashed_password): 
         return user
     return None

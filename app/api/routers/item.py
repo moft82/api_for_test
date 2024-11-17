@@ -1,51 +1,85 @@
-from fastapi import APIRouter, Depends, HTTPException, UploadFile
+from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
-from app.db.models.user import User
-from app.schemas.item import ItemCreate, ItemResponse, ItemUpdate
-from app.dependecies.authentication import get_current_user
-from app.dependecies.database import get_db
-from app.services.item import create_item_sv, delete_item_sv, read_all_items_sv, read_item_by_id_and_user_id_sv, read_items_by_user_id_sv, update_item_sv
+from app.dependencies.database import get_db
+from app.schemas.item import ItemCreate, ItemUpdate, ItemResponse
+from app.services.item import (
+    create_new_item_sv,
+    delete_item_sv,
+    get_item_by_id_sv,
+    get_items_sv,
+    update_item_by_id_sv,
+)
+from app.error.item import ItemNotFoundError, UpdateError, DeleteError
 
 router = APIRouter(
     prefix="/items",
     tags=["items"],
-    responses={404:{"description" : "Not Found"}}
+    responses={404: {"description": "Not Found"}},
 )
 
+# Get all items
 @router.get("/", response_model=list[ItemResponse])
-def read_all_items(db: Session = Depends(get_db)):
-    items = read_all_items_sv(db = db)
-    return items
+def get_items(db: Session = Depends(get_db)):
+    """
+    Retrieve all items.
+    """
+    try:
+        items = get_items_sv(db)
+        return items
+    except ItemNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
 
-@router.get("/user", response_model=list[ItemResponse])
-def read_items_by_user_id(db: Session = Depends(get_db), user: User = Depends(get_current_user)):
-    items = read_items_by_user_id_sv(db = db, user_id = user.id)
-    return items
 
-
+# Get an item by ID
 @router.get("/{item_id}", response_model=ItemResponse)
-def read_by_item_id(item_id: int, db: Session = Depends(get_db), user: User = Depends(get_current_user)):
-    item = read_item_by_id_and_user_id_sv(db=db, item_id=item_id, user_id=user.id)
-    return item
-
-@router.post("/", response_model = ItemResponse)
-def create_item(item: ItemCreate, file:UploadFile, db: Session = Depends(get_db), user:User = Depends(get_current_user)):
-    item = create_item_sv(db=db, item_data =item, file=file, user_id = user.id)
-    return item
-
-@router.put("/{item_id}", response_model = ItemResponse)
-def update_item(item_id:int, item_update: ItemUpdate, db: Session = Depends(get_db), user:User = Depends(get_current_user)):
+def get_item_by_id(item_id: int, db: Session = Depends(get_db)):
+    """
+    Retrieve a single item by its ID.
+    """
     try:
-        return update_item_sv(db, item_id, item_update)
-    except ValueError as e:
-        raise HTTPException(status_code=404, detail=str(e))
-
-@router.delect("/{item_id}")
-def delete_item(item_id:int, db: Session = Depends(get_db), user:User = Depends(get_current_user)):
-    try:
-        delete_item_sv(db, item_id, user.id)
-        return {"message": "Project deleted successfully"}
-    except ValueError as e:
+        item = get_item_by_id_sv(db, item_id)
+        return item
+    except ItemNotFoundError as e:
         raise HTTPException(status_code=404, detail=str(e))
 
 
+# Create a new item
+@router.post("/", response_model=ItemResponse)
+def create_item(item_data: ItemCreate, db: Session = Depends(get_db)):
+    """
+    Create a new item.
+    """
+    try:
+        return create_new_item_sv(db, item_data)
+    except Exception as e:
+        raise HTTPException(status_code=400, detail="Error occurred while creating the item.")
+
+
+# Update an item by ID
+@router.put("/{item_id}", response_model=ItemResponse)
+def update_item(item_id: int, item_data: ItemUpdate, db: Session = Depends(get_db)):
+    """
+    Update an existing item by its ID.
+    """
+    try:
+        updated_item = update_item_by_id_sv(db, item_id, item_data)
+        return updated_item
+    except ItemNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except UpdateError as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+# Delete an item by ID
+@router.delete("/{item_id}")
+def delete_item_by_id(item_id: int, db: Session = Depends(get_db)):
+    """
+    Delete an item by its ID.
+    """
+    try:
+        delete_item_sv(db, item_id)
+        return {"message": "Item deleted successfully."}
+    except ItemNotFoundError as e:
+        raise HTTPException(status_code=404, detail=str(e))
+    except DeleteError as e:
+        raise HTTPException(status_code=400, detail=str(e))

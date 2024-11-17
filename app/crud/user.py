@@ -22,7 +22,7 @@ def create_user_db(db: Session, user_data: UserCreate):
     return new_user
 
 # Delete user by id
-def delete_user_db(db: Session, user_id: int):
+def delete_user_by_id_db(db: Session, user_id: int):
     user = db.query(User).filter(User.id == user_id).first()
     if user:
         db.delete(user)

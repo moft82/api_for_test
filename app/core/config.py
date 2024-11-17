@@ -18,6 +18,9 @@ class Config():
         
         # Load common settings
         self.DB_URL = f"mysql+pymysql://{os.getenv('DB_USER')}:{os.getenv('DB_PWD')}@{os.getenv('DB_HOST')}:{os.getenv('DB_PORT')}/{os.getenv('DB_NAME')}"
+        self.SECRET_KEY = os.getenv('SECRET_KEY')
+        self.ALGORITHM = os.getenv('ALGORITHM')
+        self.ACCESS_TOKEN_EXPIRE_MINUTES = int(os.getenv('ACCESS_TOKEN_EXPIRE_MINUTES'))
         
         # Load environment-specific settings
         if self.APP_ENV == "testing":
@@ -30,11 +33,16 @@ class Config():
         print(f"APP_ENV : {self.APP_ENV}")
         print(f"DB_URL : {self.DB_URL}")
         
+    
     def load_development_config(self):
         self.DEBUG = True
+        
         
     def load_testing_config(self):
         self.DEBUG = True
         
+        
     def load_production_config(self):
         self.DEBUG = False
+        
+config = Config()

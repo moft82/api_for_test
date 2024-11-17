@@ -1,24 +1,23 @@
 from fastapi import FastAPI
-from app.core.config import Config
-from app.api.routers import auth, item, status, websocket, manage
-from app.db.database import Base, db
-from fastapi.staticfiles import StaticFiles
 import uvicorn
+from sqlalchemy.exc import SQLAlchemyError
+from app.core.config import config
+from app.api.routers import auth, item
 from app.middleware.logging import LoggingMiddleware
+from app.error.handler import sqlalchemy_exception_handler
+from app.db.database import Base, db
+
 
 def create_app() -> FastAPI:
-    config = Config()  
-    app = FastAPI(debug=config.DEBUG)
-    app.mount("/static", StaticFiles(directory="app/static"), name="static")
+    app = FastAPI(debug=config.DEBUG)    
     # Apply logging middleware
     app.add_middleware(LoggingMiddleware)
+    
+    # Register SQLAlchemyError handler
+    app.add_exception_handler(SQLAlchemyError, sqlalchemy_exception_handler)
 
     app.include_router(auth.router)
     app.include_router(item.router)
-    app.include_router(websocket.router)
-    
-    app.include_router(status.router)
-    app.include_router(manage.router)
 
     return app
 

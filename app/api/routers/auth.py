@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session
 from app.db.models.user import User
-from app.dependecies.authentication import get_current_user
-from app.dependecies.database import get_db
+from app.dependencies.authentication import get_current_user
+from app.dependencies.database import get_db
 from app.schemas.authentication import LoginRequest, TokenResponse
 from app.schemas.user import UserCreate
 from app.services.authentication import authenticate_user_sv, create_token_for_user_sv
@@ -35,7 +35,7 @@ def login(request: LoginRequest, db: Session = Depends(get_db)):
 
 # Delete user
 @router.delete("/")
-def delete_user_by_id(user: User = Depends(get_current_user), db: Session = Depends(get_db)):
+def delete_project_by_id(user: User = Depends(get_current_user), db: Session = Depends(get_db)):
     user_id = user.id
     try:
         delete_user_sv(user_id, db)

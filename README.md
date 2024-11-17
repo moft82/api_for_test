@@ -17,24 +17,24 @@
 ## Project Structure
 ```
 /
-├── alembic/
 ├── app/
 │ ├── .env
 │ ├── main.py
 │ ├── api/
 │ │ └── routers/
+│ ├── crud/
 │ ├── core/
 │ │ ├── config.py
-│ │ └── utils.py
 │ ├── db/
 │ │ ├── database.py
 │ │ ├── models/
-│ │ ├── schema/
-│ ├── static/
-│ ├── templates/
+│ ├── dependencies/
+│ ├── error/
+│ ├── middlewares/
+│ ├── schemas/
+│ ├── services/
 │ └── utils/
 │ ├── init.py
-│ └── migration.py
 ```
 ### alembic/
 - Contains migration scripts and configurations for Alembic.
