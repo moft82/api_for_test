@@ -2,7 +2,7 @@ from fastapi import FastAPI
 import uvicorn
 from sqlalchemy.exc import SQLAlchemyError
 from app.core.config import config
-from app.api.routers import auth, item
+from app.api.routers import auth, item, websocket
 from app.middleware.logging import LoggingMiddleware
 from app.error.handler import sqlalchemy_exception_handler
 from app.db.database import Base, db
@@ -18,6 +18,7 @@ def create_app() -> FastAPI:
 
     app.include_router(auth.router)
     app.include_router(item.router)
+    app.include_router(websocket.router)
 
     return app
 
