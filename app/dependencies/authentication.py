@@ -4,7 +4,7 @@ from fastapi.security import OAuth2PasswordBearer
 from sqlalchemy.orm import Session
 from app.db.database import db
 from app.crud.user import get_user_by_email_db
-from app.services.authentication import verify_access_token
+from app.services.authentication import verify_access_token_sv
 
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
@@ -12,7 +12,7 @@ oauth2_scheme = OAuth2PasswordBearer(tokenUrl="/auth/login")
 # Dependency to extract email from token and get user from database
 def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(db.get_db)):
     try:
-        payload = verify_access_token(token)
+        payload = verify_access_token_sv(token)
         email: str = payload.get("sub")
         if email is None:
             print("Email is missing in the token payload")

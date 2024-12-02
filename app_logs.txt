@@ -30,3 +30,1087 @@
 2024-11-17 03:23:29,102 - app_logger - INFO - Query Params: {}
 2024-11-17 03:23:29,135 - app_logger - INFO - Response status: 200 in 0.0340s
 2024-11-17 03:23:29,135 - app_logger - INFO - Response status: 200 in 0.0340s
+2024-11-26 23:11:49,796 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2024-11-26 23:11:49,796 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2024-11-26 23:11:49,797 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:11:49,797 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'cache-control': 'max-age=0', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-ch-ua-platform': '"Windows"', 'upgrade-insecure-requests': '1', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7', 'sec-fetch-site': 'none', 'sec-fetch-mode': 'navigate', 'sec-fetch-user': '?1', 'sec-fetch-dest': 'document', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:11:49,799 - app_logger - INFO - Query Params: {}
+2024-11-26 23:11:49,799 - app_logger - INFO - Query Params: {}
+2024-11-26 23:11:49,802 - app_logger - INFO - Response status: 200 in 0.0060s
+2024-11-26 23:11:49,802 - app_logger - INFO - Response status: 200 in 0.0060s
+2024-11-26 23:11:49,969 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2024-11-26 23:11:49,969 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2024-11-26 23:11:49,970 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:11:49,970 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json,*/*', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:11:49,971 - app_logger - INFO - Query Params: {}
+2024-11-26 23:11:49,971 - app_logger - INFO - Query Params: {}
+2024-11-26 23:11:49,994 - app_logger - INFO - Response status: 200 in 0.0250s
+2024-11-26 23:11:49,994 - app_logger - INFO - Response status: 200 in 0.0250s
+2024-11-26 23:11:57,654 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:11:57,654 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:11:57,655 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:11:57,655 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:11:57,656 - app_logger - INFO - Query Params: {}
+2024-11-26 23:11:57,656 - app_logger - INFO - Query Params: {}
+2024-11-26 23:11:57,666 - app_logger - ERROR - Exception during request: GET http://127.0.0.1:8000/items/ after 0.0110s - get_items_db() missing 1 required positional argument: 'item_id'
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\streams\memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\streams\memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\streams\memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\middleware\logging.py", line 17, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\_backends\_asyncio.py", line 2134, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\_backends\_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\api\routers\item.py", line 27, in get_items
+    items = get_items_sv(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+TypeError: get_items_db() missing 1 required positional argument: 'item_id'
+2024-11-26 23:11:57,666 - app_logger - ERROR - Exception during request: GET http://127.0.0.1:8000/items/ after 0.0110s - get_items_db() missing 1 required positional argument: 'item_id'
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\streams\memory.py", line 97, in receive
+    return self.receive_nowait()
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\streams\memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\base.py", line 78, in call_next
+    message = await recv_stream.receive()
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\streams\memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\middleware\logging.py", line 17, in dispatch
+    response = await call_next(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\base.py", line 84, in call_next
+    raise app_exc
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\base.py", line 70, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\exceptions.py", line 79, in __call__
+    raise exc
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\middleware\exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 20, in __call__
+    raise e
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\middleware\asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\routing.py", line 273, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\fastapi\routing.py", line 192, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\starlette\concurrency.py", line 41, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\_backends\_asyncio.py", line 2134, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\anyio\_backends\_asyncio.py", line 851, in run
+    result = context.run(func, *args)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\api\routers\item.py", line 27, in get_items
+    items = get_items_sv(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+TypeError: get_items_db() missing 1 required positional argument: 'item_id'
+2024-11-26 23:13:02,765 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:13:02,765 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:13:02,777 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:13:02,777 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:13:02,778 - app_logger - INFO - Query Params: {}
+2024-11-26 23:13:02,778 - app_logger - INFO - Query Params: {}
+2024-11-26 23:13:02,793 - app_logger - ERROR - SQLAlchemyError in get_items_sv: When initializing mapper Mapper[User(user)], expression 'Project' failed to locate a name ('Project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 515, in _resolve_name
+    rval = d[token]
+           ~^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\_collections.py", line 346, in __missing__
+    self[key] = val = self.creator(key)
+                      ^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 483, in _access_cls
+    return self.fallback[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'Project'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4240, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2403, in _post_configure_properties
+    prop.init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 579, in init
+    self.do_init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1638, in do_init
+    self._setup_entity()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1852, in _setup_entity
+    self._clsregistry_resolve_name(argument)(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 519, in _resolve_name
+    self._raise_for_name(name, err)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 500, in _raise_for_name
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: When initializing mapper Mapper[User(user)], expression 'Project' failed to locate a name ('Project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:13:02,793 - app_logger - ERROR - SQLAlchemyError in get_items_sv: When initializing mapper Mapper[User(user)], expression 'Project' failed to locate a name ('Project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 515, in _resolve_name
+    rval = d[token]
+           ~^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\_collections.py", line 346, in __missing__
+    self[key] = val = self.creator(key)
+                      ^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 483, in _access_cls
+    return self.fallback[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'Project'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4240, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2403, in _post_configure_properties
+    prop.init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 579, in init
+    self.do_init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1638, in do_init
+    self._setup_entity()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1852, in _setup_entity
+    self._clsregistry_resolve_name(argument)(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 519, in _resolve_name
+    self._raise_for_name(name, err)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 500, in _raise_for_name
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: When initializing mapper Mapper[User(user)], expression 'Project' failed to locate a name ('Project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:13:02,824 - app_logger - INFO - Response status: 500 in 0.0590s
+2024-11-26 23:13:02,824 - app_logger - INFO - Response status: 500 in 0.0590s
+2024-11-26 23:14:13,717 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:13,717 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:13,718 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:13,718 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:13,719 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:13,719 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:13,733 - app_logger - ERROR - SQLAlchemyError in get_items_sv: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 515, in _resolve_name
+    rval = d[token]
+           ~^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\_collections.py", line 346, in __missing__
+    self[key] = val = self.creator(key)
+                      ^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 483, in _access_cls
+    return self.fallback[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'project'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4240, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2403, in _post_configure_properties
+    prop.init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 579, in init
+    self.do_init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1638, in do_init
+    self._setup_entity()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1852, in _setup_entity
+    self._clsregistry_resolve_name(argument)(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 519, in _resolve_name
+    self._raise_for_name(name, err)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 500, in _raise_for_name
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:13,733 - app_logger - ERROR - SQLAlchemyError in get_items_sv: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 515, in _resolve_name
+    rval = d[token]
+           ~^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\_collections.py", line 346, in __missing__
+    self[key] = val = self.creator(key)
+                      ^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 483, in _access_cls
+    return self.fallback[key]
+           ~~~~~~~~~~~~~^^^^^
+KeyError: 'project'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4240, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2403, in _post_configure_properties
+    prop.init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 579, in init
+    self.do_init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1638, in do_init
+    self._setup_entity()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1852, in _setup_entity
+    self._clsregistry_resolve_name(argument)(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 519, in _resolve_name
+    self._raise_for_name(name, err)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\clsregistry.py", line 500, in _raise_for_name
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:13,758 - app_logger - INFO - Response status: 500 in 0.0410s
+2024-11-26 23:14:13,758 - app_logger - INFO - Response status: 500 in 0.0410s
+2024-11-26 23:14:15,307 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:15,307 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:15,308 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:15,308 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:15,308 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:15,308 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:15,312 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:15,312 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:15,323 - app_logger - INFO - Response status: 500 in 0.0159s
+2024-11-26 23:14:15,323 - app_logger - INFO - Response status: 500 in 0.0159s
+2024-11-26 23:14:15,964 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:15,964 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:15,965 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:15,965 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:15,965 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:15,965 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:15,968 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:15,968 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:15,976 - app_logger - INFO - Response status: 500 in 0.0120s
+2024-11-26 23:14:15,976 - app_logger - INFO - Response status: 500 in 0.0120s
+2024-11-26 23:14:16,472 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:16,472 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:16,473 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:16,473 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:16,475 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:16,475 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:16,477 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:16,477 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:16,486 - app_logger - INFO - Response status: 500 in 0.0139s
+2024-11-26 23:14:16,486 - app_logger - INFO - Response status: 500 in 0.0139s
+2024-11-26 23:14:17,033 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:17,033 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:17,034 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:17,034 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:17,036 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:17,036 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:17,039 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:17,039 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:17,047 - app_logger - INFO - Response status: 500 in 0.0140s
+2024-11-26 23:14:17,047 - app_logger - INFO - Response status: 500 in 0.0140s
+2024-11-26 23:14:17,555 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:17,555 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:17,556 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:17,556 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:17,557 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:17,557 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:17,561 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:17,561 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:17,569 - app_logger - INFO - Response status: 500 in 0.0131s
+2024-11-26 23:14:17,569 - app_logger - INFO - Response status: 500 in 0.0131s
+2024-11-26 23:14:19,448 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:19,448 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:14:19,449 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:19,449 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:14:19,450 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:19,450 - app_logger - INFO - Query Params: {}
+2024-11-26 23:14:19,453 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:19,453 - app_logger - ERROR - SQLAlchemyError in get_items_sv: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4236, in _do_configure_registries
+    raise e
+sqlalchemy.exc.InvalidRequestError: One or more mappers failed to initialize - can't proceed with initialization of other mappers. Triggering mapper: 'Mapper[User(user)]'. Original exception was: When initializing mapper Mapper[User(user)], expression 'project' failed to locate a name ('project'). If this is a class name, consider adding this relationship() to the <class 'app.db.models.user.User'> class after both dependent classes have been defined.
+2024-11-26 23:14:19,464 - app_logger - INFO - Response status: 500 in 0.0150s
+2024-11-26 23:14:19,464 - app_logger - INFO - Response status: 500 in 0.0150s
+2024-11-26 23:16:17,746 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:16:17,746 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:16:17,748 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:16:17,748 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:16:17,749 - app_logger - INFO - Query Params: {}
+2024-11-26 23:16:17,749 - app_logger - INFO - Query Params: {}
+2024-11-26 23:16:17,761 - app_logger - ERROR - SQLAlchemyError in get_items_sv: relationship 'projects' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4240, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2403, in _post_configure_properties
+    prop.init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 579, in init
+    self.do_init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1638, in do_init
+    self._setup_entity()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1872, in _setup_entity
+    raise sa_exc.ArgumentError(
+sqlalchemy.exc.ArgumentError: relationship 'projects' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+2024-11-26 23:16:17,761 - app_logger - ERROR - SQLAlchemyError in get_items_sv: relationship 'projects' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 11, in get_items_sv
+    items = get_items_db(db)
+            ^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 7, in get_items_db
+    return db.query(Item).all()
+           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 2912, in query
+    return self._query_cls(entities, self, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 276, in __init__
+    self._set_entities(entities)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 288, in _set_entities
+    self._raw_columns = [
+                        ^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\query.py", line 289, in <listcomp>
+    coercions.expect(
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\sql\coercions.py", line 406, in expect
+    insp._post_inspect
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\util\langhelpers.py", line 1260, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2707, in _post_inspect
+    self._check_configure()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2386, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4199, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 4240, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\mapper.py", line 2403, in _post_configure_properties
+    prop.init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\interfaces.py", line 579, in init
+    self.do_init()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1638, in do_init
+    self._setup_entity()
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\relationships.py", line 1872, in _setup_entity
+    raise sa_exc.ArgumentError(
+sqlalchemy.exc.ArgumentError: relationship 'projects' expects a class or a mapper argument (received: <class 'sqlalchemy.sql.schema.Table'>)
+2024-11-26 23:16:17,779 - app_logger - INFO - Response status: 500 in 0.0330s
+2024-11-26 23:16:17,779 - app_logger - INFO - Response status: 500 in 0.0330s
+2024-11-26 23:16:53,626 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:16:53,626 - app_logger - INFO - Incoming request: GET http://127.0.0.1:8000/items/
+2024-11-26 23:16:53,627 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:16:53,627 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:16:53,628 - app_logger - INFO - Query Params: {}
+2024-11-26 23:16:53,628 - app_logger - INFO - Query Params: {}
+2024-11-26 23:16:53,671 - app_logger - INFO - Response status: 404 in 0.0450s
+2024-11-26 23:16:53,671 - app_logger - INFO - Response status: 404 in 0.0450s
+2024-11-26 23:17:02,393 - app_logger - INFO - Incoming request: POST http://127.0.0.1:8000/items/
+2024-11-26 23:17:02,393 - app_logger - INFO - Incoming request: POST http://127.0.0.1:8000/items/
+2024-11-26 23:17:02,394 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '50', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:17:02,394 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '50', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:17:02,396 - app_logger - INFO - Query Params: {}
+2024-11-26 23:17:02,396 - app_logger - INFO - Query Params: {}
+2024-11-26 23:17:02,401 - app_logger - ERROR - SQLAlchemyError in create_new_item_sv: Class 'app.schemas.item.ItemCreate' is not mapped
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3433, in add
+    state = attributes.instance_state(instance)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\pydantic\main.py", line 761, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ItemCreate' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 35, in create_new_item_sv
+    return create_item_db(db, item_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 15, in create_item_db
+    db.add(item_data)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3435, in add
+    raise exc.UnmappedInstanceError(instance) from err
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'app.schemas.item.ItemCreate' is not mapped
+2024-11-26 23:17:02,401 - app_logger - ERROR - SQLAlchemyError in create_new_item_sv: Class 'app.schemas.item.ItemCreate' is not mapped
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3433, in add
+    state = attributes.instance_state(instance)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\pydantic\main.py", line 761, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ItemCreate' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 35, in create_new_item_sv
+    return create_item_db(db, item_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 15, in create_item_db
+    db.add(item_data)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3435, in add
+    raise exc.UnmappedInstanceError(instance) from err
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'app.schemas.item.ItemCreate' is not mapped
+2024-11-26 23:17:02,413 - app_logger - INFO - Response status: 400 in 0.0200s
+2024-11-26 23:17:02,413 - app_logger - INFO - Response status: 400 in 0.0200s
+2024-11-26 23:18:01,660 - app_logger - INFO - Incoming request: POST http://127.0.0.1:8000/items/
+2024-11-26 23:18:01,660 - app_logger - INFO - Incoming request: POST http://127.0.0.1:8000/items/
+2024-11-26 23:18:01,669 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '50', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:18:01,669 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '50', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:18:01,670 - app_logger - INFO - Query Params: {}
+2024-11-26 23:18:01,670 - app_logger - INFO - Query Params: {}
+2024-11-26 23:18:01,674 - app_logger - ERROR - SQLAlchemyError in create_new_item_sv: Class 'app.schemas.item.ItemCreate' is not mapped
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3433, in add
+    state = attributes.instance_state(instance)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\pydantic\main.py", line 761, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ItemCreate' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 35, in create_new_item_sv
+    return create_item_db(db, item_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 15, in create_item_db
+    db.add(item_data)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3435, in add
+    raise exc.UnmappedInstanceError(instance) from err
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'app.schemas.item.ItemCreate' is not mapped
+2024-11-26 23:18:01,674 - app_logger - ERROR - SQLAlchemyError in create_new_item_sv: Class 'app.schemas.item.ItemCreate' is not mapped
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3433, in add
+    state = attributes.instance_state(instance)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\pydantic\main.py", line 761, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ItemCreate' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 35, in create_new_item_sv
+    return create_item_db(db, item_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 15, in create_item_db
+    db.add(item_data)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3435, in add
+    raise exc.UnmappedInstanceError(instance) from err
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'app.schemas.item.ItemCreate' is not mapped
+2024-11-26 23:18:01,681 - app_logger - INFO - Response status: 400 in 0.0210s
+2024-11-26 23:18:01,681 - app_logger - INFO - Response status: 400 in 0.0210s
+2024-11-26 23:20:30,510 - app_logger - INFO - Incoming request: POST http://127.0.0.1:8000/items/
+2024-11-26 23:20:30,510 - app_logger - INFO - Incoming request: POST http://127.0.0.1:8000/items/
+2024-11-26 23:20:30,510 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '50', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:20:30,510 - app_logger - INFO - Headers: {'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'content-length': '50', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Google Chrome";v="131", "Chromium";v="131", "Not_A Brand";v="24"', 'content-type': 'application/json', 'sec-ch-ua-mobile': '?0', 'origin': 'http://127.0.0.1:8000', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7'}
+2024-11-26 23:20:30,511 - app_logger - INFO - Query Params: {}
+2024-11-26 23:20:30,511 - app_logger - INFO - Query Params: {}
+2024-11-26 23:20:30,523 - app_logger - ERROR - SQLAlchemyError in create_new_item_sv: Class 'app.schemas.item.ItemCreate' is not mapped
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3433, in add
+    state = attributes.instance_state(instance)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\pydantic\main.py", line 761, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ItemCreate' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 35, in create_new_item_sv
+    return create_item_db(db, item_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 15, in create_item_db
+    db.add(item_data)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3435, in add
+    raise exc.UnmappedInstanceError(instance) from err
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'app.schemas.item.ItemCreate' is not mapped
+2024-11-26 23:20:30,523 - app_logger - ERROR - SQLAlchemyError in create_new_item_sv: Class 'app.schemas.item.ItemCreate' is not mapped
+Traceback (most recent call last):
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3433, in add
+    state = attributes.instance_state(instance)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\pydantic\main.py", line 761, in __getattr__
+    raise AttributeError(f'{type(self).__name__!r} object has no attribute {item!r}')
+AttributeError: 'ItemCreate' object has no attribute '_sa_instance_state'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\project\api_for_test\app\services\item.py", line 35, in create_new_item_sv
+    return create_item_db(db, item_data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\project\api_for_test\app\crud\item.py", line 15, in create_item_db
+    db.add(item_data)
+  File "d:\Programs\anaconda3\envs\fastapi\Lib\site-packages\sqlalchemy\orm\session.py", line 3435, in add
+    raise exc.UnmappedInstanceError(instance) from err
+sqlalchemy.orm.exc.UnmappedInstanceError: Class 'app.schemas.item.ItemCreate' is not mapped
+2024-11-26 23:20:30,535 - app_logger - INFO - Response status: 400 in 0.0250s
+2024-11-26 23:20:30,535 - app_logger - INFO - Response status: 400 in 0.0250s

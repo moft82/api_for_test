@@ -3,12 +3,12 @@ from app.db.models.item import Item
 from app.schemas.item import ItemCreate, ItemResponse, ItemUpdate
 
 # Get a item by ID
-def get_items_db(db: Session, item_id: int) -> ItemResponse:
-    return db.query(Item).filter(Item.id == item_id).first()
+def get_items_db(db: Session) -> ItemResponse:
+    return db.query(Item).all()
 
 # Get all items belonging to a specific user by user_id
 def get_item_by_id_db(db: Session, item_id: int):
-    return  db.query(Item).filter(Item.id == item_id).all()
+    return  db.query(Item).filter(Item.id == item_id).fisrt()
 
 # Create a new item
 def create_item_db(db: Session, item_data: ItemCreate) -> ItemResponse:
