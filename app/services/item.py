@@ -1,4 +1,4 @@
-from app.error.item import DeleteError, ItemCreateError, ItemNotFoundError, UpdateError
+from app.errors.item import DeleteError, ItemCreateError, ItemNotFoundError, UpdateError
 from app.schemas.item import ItemCreate, ItemResponse, ItemUpdate
 from sqlalchemy.orm import Session
 from sqlalchemy.exc import SQLAlchemyError

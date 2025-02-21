@@ -1,5 +1,5 @@
 from sqlalchemy.orm import Session
-from app.error.user import UserAlreadyExistsError
+from app.errors.user import UserAlreadyExistsError
 from app.schemas.user import UserCreate
 from app.crud.user import create_user_db, delete_user_by_id_db, get_user_by_email_db
 

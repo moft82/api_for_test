@@ -9,7 +9,7 @@ from app.services.item import (
     get_items_sv,
     update_item_by_id_sv,
 )
-from app.error.item import ItemNotFoundError, UpdateError, DeleteError
+from app.errors.item import ItemNotFoundError, UpdateError, DeleteError
 
 router = APIRouter(
     prefix="/items",

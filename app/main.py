@@ -3,10 +3,9 @@ import uvicorn
 from sqlalchemy.exc import SQLAlchemyError
 from app.core.config import config
 from app.api.routers import auth, item, websocket
-from app.middleware.logging import LoggingMiddleware
-from app.error.handler import sqlalchemy_exception_handler
+from app.middlewares.logging import LoggingMiddleware
+from app.errors.handler import sqlalchemy_exception_handler
 from app.db.database import Base, db
-
 
 def create_app() -> FastAPI:
     app = FastAPI(debug=config.DEBUG)    
