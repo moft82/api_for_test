@@ -3,3 +3,4 @@
 .env.production
 .env.testing
 *.pyc
+__pycache__
